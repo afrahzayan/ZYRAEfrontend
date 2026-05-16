@@ -1,6 +1,6 @@
 import { useFormik } from 'formik';
 import { signup } from './signup';
-import { useAuth } from '../Context/AuthContext';
+import { useAuth } from '../context/authContext';
 import { useNavigate, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
