@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { api } from '../../api/axios';
-import Dashboard from '../component/Dashboard';
+import Dashboard from '../component/dashboard';
 
 const AddProduct = () => {
   const navigate = useNavigate();

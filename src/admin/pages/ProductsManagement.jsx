@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../../api/axios';
-import Dashboard from '../component/Dashboard';
+import Dashboard from '../component/dashboard';
 
 const ProductsManagement = () => {
   const [products, setProducts] = useState([]);
