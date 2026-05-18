@@ -73,7 +73,7 @@ api.interceptors.response.use(
       try {
 
         await axios.post(
-          "http://localhost:4000/api/auth/refresh",
+          "https://zyraebackend.onrender.com/api/auth/refresh",
           {},
           {
             withCredentials: true,
