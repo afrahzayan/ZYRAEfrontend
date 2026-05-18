@@ -202,7 +202,7 @@ const ProductsManagement = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
-          {/* SEARCH */}
+          
           <div className="relative">
             <input
               type="text"
@@ -218,7 +218,7 @@ const ProductsManagement = () => {
             />
           </div>
 
-          {/* COLLECTION FILTER */}
+          
           <select
             value={selectedCollection}
             onChange={(e) => setSelectedCollection(e.target.value)}
@@ -238,7 +238,7 @@ const ProductsManagement = () => {
             ))}
           </select>
 
-          {/* SORT */}
+          
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
@@ -542,7 +542,7 @@ const ProductsManagement = () => {
               </table>
               <div className="flex justify-center items-center gap-6 mt-6">
 
-                {/* LEFT ARROW */}
+                
                 <button
                   disabled={page === 1}
                   onClick={() => setPage(prev => prev - 1)}
@@ -567,7 +567,7 @@ const ProductsManagement = () => {
                   </svg>
                 </button>
 
-                {/* PAGE NUMBER */}
+              
                 <span
                   className="font-semibold"
                   style={{ color: '#5A4638' }}
@@ -575,7 +575,7 @@ const ProductsManagement = () => {
                   {page} / {totalPages}
                 </span>
 
-                {/* RIGHT ARROW */}
+                
                 <button
                   disabled={page === totalPages}
                   onClick={() => setPage(prev => prev + 1)}

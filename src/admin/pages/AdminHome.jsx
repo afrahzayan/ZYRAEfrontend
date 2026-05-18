@@ -312,11 +312,13 @@ const AdminHome = () => {
           />
         </div>
 
-        {/* CHARTS */}
+        
+
+
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
-          {/* REVENUE CHART */}
+          
 
           <div
             className="p-6 rounded-xl border"
@@ -360,7 +362,7 @@ const AdminHome = () => {
             </div>
           </div>
 
-          {/* PIE CHART */}
+          
 
           <div
   className="p-6 rounded-xl border"
@@ -446,7 +448,7 @@ const AdminHome = () => {
 </div>
         </div>
 
-        {/* WEEKLY ORDERS */}
+        
 
         <div
           className="p-6 rounded-xl border"
